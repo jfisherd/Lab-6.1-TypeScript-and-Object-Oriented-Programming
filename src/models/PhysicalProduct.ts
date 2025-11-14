@@ -1,0 +1,19 @@
+// import {Product} from "/inventory-tracker/src/models/Products.ts";
+import {Product} from "./Product"
+
+export class PhysicalProduct extends Product {
+    weight: number;
+
+    constructor(sku: string, name: string, price: number, weight: number) {
+        super(sku, name, price);
+        this.weight = weight;
+    }
+
+    getPriceWithTax(): number {
+        return this.price * 1.1
+    }
+
+    get kgFormatted () {
+        return this.weight + " kg" // SHOULD RETURN STRING?
+    }
+}
