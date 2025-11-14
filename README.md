@@ -11,11 +11,11 @@
 
 ## Description
 In this lab, an inventory tracker capable of managing both physical and digital products is built to reinforce understanding of OOP. Inheritance is explored by creating an abstract class called Product, which is then extended to either a PhysicalProduct class or a DigitalProduct class. Each class is contained in its own module and exported for other modules to access. 
-
-
+<br>
+Early commits missing after re-creating local and cloud repositories.
 
 ## Running the program
-To view this lab
+To view this lab, run main.js by typing [ ] in the console
 <br>
 
 ## Reflection Questions

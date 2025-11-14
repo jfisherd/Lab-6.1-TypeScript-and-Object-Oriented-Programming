@@ -1,5 +1,5 @@
 // import {Product} from "/inventory-tracker/src/models/Products.ts";
-import {calculateTax} from "../utils/taxCalculator";
+import calculateTax from "../utils/taxCalculator";
 import {Product} from "./Product"
 
 export default class PhysicalProduct extends Product {
