@@ -2,7 +2,7 @@
 import {calculateTax} from "../utils/taxCalculator";
 import {Product} from "./Product"
 
-export class PhysicalProduct extends Product {
+export default class PhysicalProduct extends Product {
     weight: number;
 
     constructor(sku: string, name: string, price: number, weight: number) {
