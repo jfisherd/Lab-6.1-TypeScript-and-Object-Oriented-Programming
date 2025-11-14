@@ -1,4 +1,4 @@
-class Product { // EXPORT THIS
+export class Product { // EXPORT THIS
     sku: string;
     name: string;
     price: number;
@@ -16,8 +16,4 @@ class Product { // EXPORT THIS
     getPriceWithTax(): number {
         return this.price
     }
-}
-
-export {
-    Product
 }
