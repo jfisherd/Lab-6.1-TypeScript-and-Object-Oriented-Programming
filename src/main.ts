@@ -15,22 +15,6 @@ console.log(inventory)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ]
 
 // console.log(inventory)
