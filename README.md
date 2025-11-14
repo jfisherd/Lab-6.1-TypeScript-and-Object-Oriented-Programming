@@ -10,7 +10,7 @@
 # Lab 6.1, Advanced DOM Manipulation
 
 ## Description
-In this lab, an inventory tracker capable of managing both physical and digital products is built to reinforce understanding of OOP. Inheritance is explored by creating a class called Product, then extended to either a PhysicalProduct or DigitalProduct
+In this lab, an inventory tracker capable of managing both physical and digital products is built to reinforce understanding of OOP. Inheritance is explored by creating an abstract class called Product, which is then extended to either a PhysicalProduct class or a DigitalProduct class. Each class is contained in its own module and exported for other modules to access. 
 
 
 

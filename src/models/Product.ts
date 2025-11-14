@@ -1,4 +1,4 @@
-export class Product { // EXPORT THIS
+export abstract class Product { // EXPORT THIS
     sku: string;
     name: string;
     price: number;
