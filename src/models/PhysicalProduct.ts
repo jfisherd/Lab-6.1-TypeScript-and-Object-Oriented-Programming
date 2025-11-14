@@ -1,4 +1,5 @@
 // import {Product} from "/inventory-tracker/src/models/Products.ts";
+import { calculateTax } from "../utils/taxCalculator";
 import {Product} from "./Product"
 
 export class PhysicalProduct extends Product {
@@ -10,7 +11,7 @@ export class PhysicalProduct extends Product {
     }
 
     getPriceWithTax(): number {
-        return this.price * 1.1
+        return calculateTax(this)
     }
 
     get kgFormatted () {
